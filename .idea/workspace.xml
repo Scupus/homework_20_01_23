@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc059daf-54d9-4397-a671-8cbb99ffd581" name="Changes" comment="Первая часть ДЗ. Создан абстрактный класс и 3 наследуемых, созданы по 4 объекта каждого класса и 2 метода, результат выводится в консоль.">
-      <change afterPath="$PROJECT_DIR$/src/Challengers.java" afterDir="false" />
+    <list default="true" id="cc059daf-54d9-4397-a671-8cbb99ffd581" name="Changes" comment="Вторая часть ДЗ. Создан интерфейс,в нем создано 3 метода, методы выведены в консоль.">
+      <change afterPath="$PROJECT_DIR$/src/DriverA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DriverB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DriverC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Drivers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Buses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Buses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trucks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trucks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -62,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674630150274</updated>
-      <workItem from="1674630151820" duration="967000" />
+      <workItem from="1674630151820" duration="2368000" />
     </task>
     <task id="LOCAL-00001" summary="Первая часть ДЗ. Создан абстрактный класс и 3 наследуемых, созданы по 4 объекта каждого класса и 2 метода, результат выводится в консоль.">
       <created>1674630805109</created>
@@ -71,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674630805109</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Вторая часть ДЗ. Создан интерфейс,в нем создано 3 метода, методы выведены в консоль.">
+      <created>1674631308640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674631308640</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Первая часть ДЗ. Создан абстрактный класс и 3 наследуемых, созданы по 4 объекта каждого класса и 2 метода, результат выводится в консоль." />
-    <option name="LAST_COMMIT_MESSAGE" value="Первая часть ДЗ. Создан абстрактный класс и 3 наследуемых, созданы по 4 объекта каждого класса и 2 метода, результат выводится в консоль." />
+    <MESSAGE value="Вторая часть ДЗ. Создан интерфейс,в нем создано 3 метода, методы выведены в консоль." />
+    <option name="LAST_COMMIT_MESSAGE" value="Вторая часть ДЗ. Создан интерфейс,в нем создано 3 метода, методы выведены в консоль." />
   </component>
 </project>

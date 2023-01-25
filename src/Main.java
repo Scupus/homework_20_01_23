@@ -31,8 +31,18 @@ public class Main {
         truck1.printBestSpeed();
         car3.printPitStop();
         bus2.printBestTime();
-
-
+        DriverA driver1 = new DriverA("Иванов И.И.", "Да", 6, "A");
+        DriverA driver2 = new DriverA("Петров П.П.", "Да", 3, "A");
+        System.out.println(driver1);
+        System.out.println(driver2);
+        DriverB driver3 = new DriverB("Сидоров С.С.", "Да", 1,"B");
+        DriverB driver4 = new DriverB("Семенов С.С.", "Да", 3,"B");
+        System.out.println(driver3);
+        System.out.println(driver4);
+        DriverC driver5 = new DriverC("Чайковский П.И.", "Да", 5,"C");
+        DriverC driver6 = new DriverC("Растропович М.Л.", "Да", 2,"C");
+        System.out.println(driver5);
+        System.out.println(driver6);
     }
 }
 
