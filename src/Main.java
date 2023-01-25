@@ -28,6 +28,9 @@ public class Main {
         car1.printStopMoving();
         System.out.println(truck3);
         System.out.println(truck1);
+        truck1.printBestSpeed();
+        car3.printPitStop();
+        bus2.printBestTime();
 
 
     }

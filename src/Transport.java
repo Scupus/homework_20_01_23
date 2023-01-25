@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public abstract class Transport {
+public abstract class Transport implements Challengers{
     final String brand;
     final String model;
     final float engineVolume;

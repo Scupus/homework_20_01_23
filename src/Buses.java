@@ -14,6 +14,20 @@ public class Buses extends Transport {
     public void printStopMoving() {
         super.printStopMoving();
     }
+    @Override
+    public void printPitStop() {
+        super.printPitStop();
+    }
+
+    @Override
+    public void printBestTime() {
+        super.printBestTime();
+    }
+
+    @Override
+    public void printBestSpeed() {
+        super.printBestSpeed();
+    }
 
 
     @Override
