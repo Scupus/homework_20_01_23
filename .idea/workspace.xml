@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc059daf-54d9-4397-a671-8cbb99ffd581" name="Changes" comment="Первая часть ДЗ. Создан абстрактный класс и 3 наследуемых, созданы по 4 объекта каждого класса и 2 метода, результат выводится в консоль.">
-      <change afterPath="$PROJECT_DIR$/src/Challengers.java" afterDir="false" />
+    <list default="true" id="cc059daf-54d9-4397-a671-8cbb99ffd581" name="Changes" comment="Создан родительский Drivers класс и 3 наследуеых класса, в классах  созданы 3 метода, методы и объекты выводятся в консоль.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Buses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Buses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DriverA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DriverA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DriverB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DriverB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DriverC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DriverC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Drivers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Trucks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trucks.java" afterDir="false" />
     </list>
@@ -22,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -33,13 +42,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -62,7 +71,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674630150274</updated>
-      <workItem from="1674630151820" duration="967000" />
+      <workItem from="1674630151820" duration="3426000" />
+      <workItem from="1674713743945" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="Первая часть ДЗ. Создан абстрактный класс и 3 наследуемых, созданы по 4 объекта каждого класса и 2 метода, результат выводится в консоль.">
       <created>1674630805109</created>
@@ -71,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674630805109</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Вторая часть ДЗ. Создан интерфейс,в нем создано 3 метода, методы выведены в консоль.">
+      <created>1674631308640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674631308640</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Создан родительский класс и 3 наследуеых класса, в классах  созданы 3 метода, методы и объекты выводятся в консоль">
+      <created>1674632917586</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674632917586</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +114,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Первая часть ДЗ. Создан абстрактный класс и 3 наследуемых, созданы по 4 объекта каждого класса и 2 метода, результат выводится в консоль." />
-    <option name="LAST_COMMIT_MESSAGE" value="Первая часть ДЗ. Создан абстрактный класс и 3 наследуемых, созданы по 4 объекта каждого класса и 2 метода, результат выводится в консоль." />
+    <MESSAGE value="Вторая часть ДЗ. Создан интерфейс,в нем создано 3 метода, методы выведены в консоль." />
+    <MESSAGE value="Создан родительский класс и 3 наследуеых класса, в классах  созданы 3 метода, методы и объекты выводятся в консоль" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создан родительский класс и 3 наследуеых класса, в классах  созданы 3 метода, методы и объекты выводятся в консоль" />
   </component>
 </project>
