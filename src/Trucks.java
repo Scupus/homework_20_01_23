@@ -1,6 +1,15 @@
 public class Trucks extends Transport {
-    public Trucks(String brand, String model, float engineVolume) {
-        super(brand, model, engineVolume);
+    public Trucks(String brand, String model, float engineVolume, String name, String license) {
+        super(brand, model, engineVolume, name, license);
+    }
+    public void printTruckPlusPilot() {
+
+        if (L.equals("B")) {
+            System.out.println("Машиной марки: " + brand + " " + model);
+            System.out.println("Управляет пилот: " + getN());
+        } else {
+            System.out.println("У этого пилота неподходящая лицензия для управления этой категории ТС!");
+        }
     }
 
     @Override
@@ -16,6 +25,10 @@ public class Trucks extends Transport {
     public void printPitStop() {
         super.printPitStop();
     }
+    @Override
+    public void printBestSpeed() {
+        super.printBestSpeed();
+    }
 
     @Override
     public void printBestTime() {
@@ -23,13 +36,7 @@ public class Trucks extends Transport {
     }
 
     @Override
-    public void printBestSpeed() {
-        super.printBestSpeed();
-    }
-
-
-    @Override
     public String toString() {
-        return "Грузовик марки: " + getBrand() + " , модель: " + getModel() + ", объем двигателя: " + engineVolume + ".";
+        return "Грузовик марки: " + getBrand() + ", модель: " + getModel() + ", объем двигателя: " + engineVolume + ".";
     }
 }

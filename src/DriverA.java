@@ -1,31 +1,10 @@
-public class DriverA extends Drivers {
-    private final String typeOfLicense;
-
-    public String getTypeOfLicense() {
-        return typeOfLicense;
-    }
-
-    public DriverA(String name, String haveLicense, int driverExperience, String typeOfLicense) {
-        super(name, haveLicense, driverExperience);
-        this.typeOfLicense = typeOfLicense;
-    }
-
-    public void printDriverStartMoving() {
-        System.out.println("Начать гонку!");
-    }
-
-    public void printDriverStopMoving() {
-        System.out.println("Остановиться!");
-    }
-
-    public void printDriverFillGasTank() {
-        System.out.println("Заправить авто.");
+public class DriverA extends Driver {
+    public DriverA(String name, int driverExperience, Object typeOfDrivingLicense) {
+        super(name, driverExperience, typeOfDrivingLicense);
     }
 
     @Override
     public String toString() {
-        return "Водитель: " + name + ", наличие прав - " + haveLicense +
-                ", категория прав: " + typeOfLicense + ", водительский стаж: " + driverExperience + " лет.";
+        return "Водитель: " + getName() + ", категория прав: " + getTypeOfDrivingLicense() + ", водительский стаж: " + getDriverExperience() + " лет.";
     }
 }
-
